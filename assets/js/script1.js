@@ -44,7 +44,6 @@ for (let apartamentoAlquiler of propiedadesAlquiler) {
                 <p>${apartamentoAlquiler.ubicacion}</p>
                 <p>${apartamentoAlquiler.descripcion}</p>
                 <p>${apartamentoAlquiler.habitaciones} habitaciones</p>
-                <p><i class="fas fa-dollar-sign"></i> $${apartamentoAlquiler.costo.toLocaleString()}</p>
             <p class="${apartamentoAlquiler.smoke ? 'permitido' : 'peligro'}">
               <i class="${apartamentoAlquiler.smoke ? 'fas fa-smoking' : 'fas fa-smoking-ban'}"></i> ${apartamentoAlquiler.smoke ? 'Permitido fumar' : 'No se permite fumar'}
             </p>
